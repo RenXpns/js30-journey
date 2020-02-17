@@ -1,3 +1,24 @@
 [submodule "js30-e1"]
 	path = js30-e1
 	url = https://github.com/RenXpns/js30-e1.git
+[submodule "js30-e2"]
+	path = js30-e2
+	url = https://github.com/RenXpns/js30-e2.git
+[submodule "js30-e3"]
+	path = js30-e3
+	url = https://github.com/RenXpns/js30-e3.git
+[submodule "js30-e4"]
+	path = js30-e4
+	url = https://github.com/RenXpns/js30-e4.git
+[submodule "js30-e5"]
+	path = js30-e5
+	url = https://github.com/RenXpns/js30-e5.git
+[submodule "js30-e6"]
+	path = js30-e6
+	url = https://github.com/RenXpns/js30-e6.git
+[submodule "js30-e7"]
+	path = js30-e7
+	url = https://github.com/RenXpns/js30-e7.git
+[submodule "js30-e8"]
+	path = js30-e8
+	url = https://github.com/RenXpns/js30-e8.git
