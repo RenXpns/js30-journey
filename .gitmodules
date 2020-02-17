@@ -22,3 +22,6 @@
 [submodule "js30-e8"]
 	path = js30-e8
 	url = https://github.com/RenXpns/js30-e8.git
+[submodule "js30-e11"]
+	path = js30-e11
+	url = https://github.com/RenXpns/js30-e11.git
