@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+</head>
+<body>
+<script>
+  const pressed = [];
+  const mycode = "pogisirengie"
+  document.addEventListener('keyup', (e) => {
+    console.log(e.key)
+    pressed.push(e.key);
+
+    pressed.splice(-mycode.length - 1, pressed.length - mycode.length)
+    if(pressed.join("") == mycode){
+      cornify_add()
+    }
+
+    console.log(`this is pressed length:${pressed.length}, this is mycode length ${mycode.length}`)
+    console.log(pressed.length - mycode.length)
+    console.log(pressed.join(""))
+  })
+</script>
+</body>
+</html>
